@@ -1,6 +1,6 @@
 onload = function(){
  var c = document.getElementById('canvas');
-  c.width = 500;
+  c.width = 300;
   c.height = 300;
 
   // webglコンテキストを取得
