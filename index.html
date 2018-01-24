@@ -3,6 +3,26 @@
 <head>
 <mata charset="utf-8">
  <title>web2　課題</title>
+  <mata charset="utf-8">
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script type="text/javascript">
+  $(function(){
+   $("#color").css("color","red");
+  });
+  
+  $(function(){
+   $("#toggle").on("mouseover",function(){
+    $("#hide").fadeToggle("slow");
+   });
+  });
+ 
+　 $(function(){
+    $("button").click(function () {
+      $("c").toggle();
+    });
+  });
+  
+  </script>
  </head>
 
  <body>
@@ -36,6 +56,14 @@
     </ons-toolbar>
 
     <p>onsenUI 2</p>
+   <p><div id="color">jQueryの試し部屋</div></p>
+ <p><div id="hide">カーソルを乗せると出たり消えたり</div></p>
+ <p><div id="toggle"><mark>乗せてみて</mark></div></p>
+ 
+ <p><c>ボタンを押すと文字が変わるよ</c></p>
+<p> <button>押してみて</button></p>
+ <c style="display: none">When you press the button, the letters change</c>
+   
   </ons-page>
 </template>
 
