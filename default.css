@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-background-image: url(ピクトグラム.jpg),url(ダイス.jpg);
-background-repeat: no-repeat, no-repeat;
-background-size: 10px 10px, cover;
+background-image:url(dice.jpg);
+background-repeat: no-repeat,
+background-size:cover;
 }
