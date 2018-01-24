@@ -4,12 +4,13 @@
 <mata charset="utf-8">
  <title>web2　課題</title>
  <style>
-		body { margin: 0; }
-		canvas { width: 100%; height: 100% }
-	</style>
+	 body { margin: 0; }
+	 canvas { width: 100%; height: 100% }
+</style>
  </head>
 
  <body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
 <script src="https://unpkg.com/react@15.3.1/dist/react.min.js"></script>
 <script src="https://unpkg.com/react-dom@15.3.1/dist/react-dom.min.js"></script>
  <script src="js/onsenui.min.js"></script>
@@ -26,9 +27,8 @@
 
    
    <p>onsenUI 1</p>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
-		
-		<script type="text/javascript">
+
+	  <script type="text/javascript">
 			var scene = new THREE.Scene();
 			var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
 			var renderer = new THREE.WebGLRenderer();
@@ -66,7 +66,8 @@
 			};
 			render();
 		</script>
-   <p><ons-button onclick="alert('Hello!')">Click Me</ons-button></p>
+  
+<p><ons-button onclick="alert('Hello!')">Click Me</ons-button></p>
    <p><ons-button id="push-button">Push page</ons-button></p>
   </ons-page>
 </template>
